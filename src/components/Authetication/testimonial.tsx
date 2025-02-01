@@ -1,9 +1,9 @@
 import React from 'react';
 import { ArrowLeft, ArrowRight, Star } from 'lucide-react';
 
-const PortofoiloTestimonial = () => {
+const PortofolioTestimonial = () => {
   return (
-    <div className="min-h-screen  p-6 flex items-center justify-center">
+    <div className="w-full overflow-hidden p-6 flex items-center justify-center">
       <div className="w-full max-w-md bg-gradient-to-b from-gray-300 to-black rounded-3xl p-10 relative overflow-hidden">
         {/* Top Corner Pattern */}
         <div className="absolute top-0 right-0">
@@ -77,4 +77,4 @@ const PortofoiloTestimonial = () => {
   );
 };
 
-export default PortofoiloTestimonial;
+export default PortofolioTestimonial;
